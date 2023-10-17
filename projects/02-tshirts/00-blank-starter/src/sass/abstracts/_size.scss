@@ -1,0 +1,13 @@
+$spacing: (
+    size: (
+        8: 0.5rem,
+        16: 1rem,
+        32: 2rem,
+        36: 3rem
+    )
+);
+
+$spacing-size-8: var(--spacing-size-8);
+$spacing-size-16: var(--spacing-size-16);
+$spacing-size-32: var(--spacing-size-32);
+$spacing-size-36: var(--spacing-size-36);

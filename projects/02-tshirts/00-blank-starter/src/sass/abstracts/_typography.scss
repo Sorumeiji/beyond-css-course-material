@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+
+$ff-Roboto: "Roboto", sans-serif;
+
+$font-roboto-regular: 400;
+$font-roboto-bold: 700;
+$font-roboto-black: 900;
+
+$type: (
+    size: (
+        400: 1.125rem,
+        500: 1.25rem,
+        600: 2rem,
+        700: 3rem
+    )
+);
+
+$type-size-400: var(--type-size-400);
+$type-size-500: var(--type-size-500);
+$type-size-600: var(--type-size-600);
+$type-size-700: var(--type-size-700);

@@ -1,0 +1,26 @@
+$-clr-red-400: hsla(357, 100%, 68%, 1);
+$-clr-red-500: hsl(357, 74%, 40%);
+$-clr-blue-800: hsla(216, 71%, 16%, 1);
+$-clr-neutral-100: hsl(0 0% 100%);
+
+$shadow: 0.25rem 0.25rem 1rem rgb(0 0 0 / 0.15);
+
+$colors: (
+    neutral: (
+        100: $-clr-neutral-100
+    ),
+    primary: (
+        800: $-clr-blue-800
+    ),
+    secondary: (
+        400: $-clr-red-400,
+        500: $-clr-red-500
+    )
+);
+
+// Contextual Design Tokens
+
+$color-neutral-100: var(--color-neutral-100);
+$color-primary-800: var(--color-primary-800);
+$color-secondary-400: var(--color-secondary-400);
+$color-secondary-500: var(--color-secondary-500);
